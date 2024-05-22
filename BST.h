@@ -2,9 +2,9 @@
 class BST{
     public:
         //Constructor
-        BST();
+        BST(){}
         //Destructor
-        ~BST();
+        ~BST(){}
         //all the virtual functions for teh Binary Tree
         virtual bool isEmpty() = 0;
         virtual void addBST(int key) = 0;
