@@ -22,4 +22,6 @@ class LLBST : public BST{
         void addBST(int key);
         void removeBST(int keyToDelete);
         bool searchBST(int tagetKey);
+        void inOrder(Node* temp);
+        Node* getRoot(){ return root; }
 };
