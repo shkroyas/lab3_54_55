@@ -15,4 +15,7 @@ int main() {
     bst.addBST(60);
     bst.addBST(80);
     cout << "Is tree empty? " << bst.isEmpty() << endl;
+    cout << "The BST in inorder traversal is: ";
+    bst.inorderTraversal(0);
+    cout << endl;
     }

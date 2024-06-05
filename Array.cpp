@@ -78,3 +78,14 @@ void BinarySearchTree::removeBST(int keyToDelete){
     // Key not found
     cout << "Key to delete not found." << endl;
 }
+
+void BinarySearchTree::inorderTraversal(int index = 0) {
+    if (index >= capacity || treeArray[index] == nullptr) {
+        return;
+    }
+    inorderTraversal(2 * index + 1);  // Left child
+    cout << *treeArray[index] << " "; // Node
+    inorderTraversal(2 * index + 2);  // Right child
+}
+
+

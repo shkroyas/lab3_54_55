@@ -23,5 +23,8 @@ public:
 
     // Method to remove a key from the tree
     void removeBST(int keyToDelete);
+
+    // Method to print the tree
+    void inorderTraversal(int index);
 };
 
