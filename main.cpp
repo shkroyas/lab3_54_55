@@ -18,7 +18,11 @@ int main() {
     cout << "The BST in inorder traversal is: ";
     bst.inorderTraversal(0);
     cout << endl;
-    bst.searchBST(30) ? cout << "Key found" << endl : cout << "Key not found" << endl;
-    bst.searchBST(100)? cout << "Key found" << endl : cout << "Key not found" << endl;
-    
+    bst.removeBST(20);
+    bst.removeBST(30);
+    bst.removeBST(60);
+    bst.removeBST(80);
+    cout << "The BST in inorder traversal is: ";
+    bst.inorderTraversal(0);
+  
     }
